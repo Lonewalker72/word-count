@@ -2,7 +2,7 @@
   "name": "word-count",
   "version": "1.0.0",
   "description": "Count the top 100 words of a .txt file (excluding stop words)",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "mocha",
     "start": "npm run open",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Lonewalker72/word-count#readme",
   "devDependencies": {
+    "chai": "^4.1.2",
     "eslint": "^4.15.0",
     "http-server": "^0.11.1",
     "mocha": "^4.1.0"
